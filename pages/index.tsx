@@ -22,6 +22,7 @@ export default function Index() {
   return (
     <>
       <Head>
+        <title>Acosos callejeros</title>
         <link
           href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap"
           rel="stylesheet"
@@ -57,7 +58,7 @@ export default function Index() {
             alignSelf={'center'}
             position={'relative'}>
             {user ? (
-              <Link href="/create">
+              <Link href="/posts/create">
                 <Button
                   colorScheme={'blue'}
                   bg={'blue.600'}
